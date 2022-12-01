@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&display=swap");
+
+body {
+  font-family: "IBM Plex Sans", sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 99px;
+  padding: 0 45px;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: 600;
+  color: lightseagreen;
+}
+
+.nav-wrapper {
+  display: flex;
+}
+
+.nav-list {
+  display: flex;
+  column-gap: 56px;
+  margin-right: 300px;
+}
+
+.nav-list li {
+  font-weight: 400;
+  font-size: 18px;
+  color: #14203e;
+  cursor: pointer;
+}
+
+.nav-list li:hover {
+  font-weight: 700;
+}
+
+.login-btn,
+.free-trial-btn {
+  border-radius: 10px;
+  padding: 13px 30px;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.login-btn {
+  background: #f7f0e8;
+  color: #000000;
+  margin-right: 15px;
+}
+
+.free-trial-btn {
+  background: #14203e;
+  color: #ffffff;
+}
+
+/* Main */
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 604px;
+  background: #fffcf8;
+  border-top: 1px solid #f4e8d8;
+  border-bottom: 1px solid #f4e8d8;
+}
+
+.main-title {
+  width: 600px;
+  font-weight: 700;
+  font-size: 66px;
+  line-height: 72px;
+  color: #14203e;
+  text-align: center;
+}
+
+.main-paragraph {
+  width: 600px;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 29px;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.main-btn {
+  background: #14203e;
+  border-radius: 10px;
+  padding: 25px 40px;
+  font-weight: 400;
+  font-size: 18px;
+  color: #ffffff;
+  margin-top: 40px;
+}
+
+.main-btn:hover {
+  background: #20305a;
+}
+
+/* Images */
+
+.images-section {
+  padding: 30px 0;
+}
+
+.images-title {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+.images-title h3 {
+  margin: 0 15px;
+}
+
+.line {
+  width: 200px;
+  height: 1px;
+  background: rgba(20, 32, 62, 0.2);
+}
+
+.images-list {
+  display: flex;
+  justify-content: center;
+  column-gap: 30px;
+  margin-top: 30px;
+}
+
+.image-card {
+  width: 291px;
+}
+
+.image-title {
+  font-weight: 700;
+  font-size: 22px;
+  color: #14203e;
+  margin: 20px 0 15px 0;
+}
+
+.image-date {
+  font-weight: 400;
+  font-size: 14px;
+  color: #14203e;
+}
